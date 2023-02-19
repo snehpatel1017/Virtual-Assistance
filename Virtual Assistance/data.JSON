@@ -1,0 +1,57 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "Good morning",
+                "I am here",
+                "hi",
+                "hey",
+                "What's up",
+                "How are you doing!",
+                "How is it going?"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "quit",
+            "patterns": [
+                "bye",
+                "Farewell",
+                "take care",
+                "I am leaving",
+                "good bye",
+                "latter"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "create_note",
+            "patterns": [
+                "I want to Create the note",
+                "Can you please make a note for me"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "add_todo",
+            "patterns": [
+                "I Want to add something into my todo list",
+                "Can you please add something into my todo list",
+                "Would you please add something into my todo list"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "show_todo",
+            "patterns": [
+                "Do you know what's in my todo list?",
+                "Tell me my todo list",
+                "Tell me my today's task",
+                "Can you tell me my today's schedule"
+            ],
+            "responses": []
+        }
+    ]
+}
