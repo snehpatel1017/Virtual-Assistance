@@ -22,15 +22,19 @@
                 "take care",
                 "I am leaving",
                 "good bye",
-                "latter"
+                "latter",
+                "quit",
+                "You can go",
+                "Leave me alone"
             ],
             "responses": []
         },
         {
-            "tag": "create_note",
+            "tag": "make_file",
             "patterns": [
-                "I want to Create the note",
-                "Can you please make a note for me"
+                "I want to Create the file",
+                "can you please make file for me",
+                "i want to have a new file"
             ],
             "responses": []
         },
@@ -50,6 +54,40 @@
                 "Tell me my todo list",
                 "Tell me my today's task",
                 "Can you tell me my today's schedule"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "open_you_tube",
+            "patterns": [
+                "Can you open youtube for me",
+                "open a youtube"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "current_time",
+            "patterns": [
+                "what is the current time",
+                "do you know what time it is"
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "Who are you",
+                "i don't know you",
+                "can you tell me about yourself",
+                "who made you"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "capability",
+            "patterns": [
+                "What can you do for me",
+                "What type of task can you do",
+                "What is your capablities"
             ],
             "responses": []
         }
